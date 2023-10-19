@@ -8,10 +8,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.Map;
-
+//import jakarta.servlet.http.HttpSession;
+import javax.servlet.http.HttpSession;
 /**
  * 前台用户Controller层
  *

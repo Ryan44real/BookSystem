@@ -8,6 +8,8 @@ import com.ledao.service.BorrowRecordService;
 import com.ledao.service.UserService;
 import com.ledao.util.DateUtil;
 import com.ledao.util.StringUtil;
+//import jakarta.servlet.http.HttpSession;
+import javax.servlet.http.HttpSession;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpSession;
+
 import java.io.File;
 import java.util.HashMap;
 import java.util.Iterator;

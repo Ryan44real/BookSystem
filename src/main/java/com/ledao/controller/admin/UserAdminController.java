@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpSession;
+//import jakarta.servlet.http.HttpSession;
 import java.util.HashMap;
+import javax.servlet.http.HttpSession;
 import java.util.List;
 import java.util.Map;
 
